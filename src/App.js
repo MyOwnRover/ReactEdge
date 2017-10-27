@@ -1,13 +1,17 @@
-import React, { Component } from 'react';
-import { Button } from 'antd';
+import React, {Component} from 'react';
 import './App.css';
+
+import AddTodo from './containers/AddTodo';
+import VisibleTodoList from './containers/VisibleTodoList';
+import Footer from './components/Footer';
 
 class App extends Component {
     render() {
         return (
-            <div className="App">
-                <Button type="primary">Button</Button>
-                <p>test</p>
+            <div>
+                <AddTodo />
+                <VisibleTodoList />
+                <Footer />
             </div>
         );
     }
