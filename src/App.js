@@ -12,6 +12,7 @@ class App extends Component {
                 <AddTodo />
                 <VisibleTodoList />
                 <Footer />
+
             </div>
         );
     }
