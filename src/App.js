@@ -4,6 +4,8 @@ import './App.css';
 import AddTodo from './containers/AddTodo';
 import VisibleTodoList from './containers/VisibleTodoList';
 import Footer from './components/Footer';
+import Counter from './components/Counter';
+import CounterButton from './containers/CounterButton'
 
 class App extends Component {
     render() {
@@ -12,7 +14,8 @@ class App extends Component {
                 <AddTodo />
                 <VisibleTodoList />
                 <Footer />
-
+                <Counter/>
+                <CounterButton/>
             </div>
         );
     }

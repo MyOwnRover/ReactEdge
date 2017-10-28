@@ -14,3 +14,13 @@ export const toggleTodo = (id) => ({
     type: 'TOGGLE_TODO',
     id
 });
+
+export const addCounter = (value) => ({
+    type: 'ADD_COUNTER',
+    value
+});
+
+export const miniteCounter = (value) => ({
+    type: 'MINITE_COUNTER',
+    value
+});
