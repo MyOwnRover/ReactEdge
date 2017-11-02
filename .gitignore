@@ -1,13 +1,15 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/node_modules
+/backEnd/node_modules
+/frontEnd/node_modules
 
 # testing
-/coverage
+/frontEnd/coverage
+/backEnd/coverage
 
 # production
-/build
+/frontEnd/build
 
 #不同的操作系统，.idea文件夹中的默认配置不一样，因此不提交到版本库中
 /.idea
