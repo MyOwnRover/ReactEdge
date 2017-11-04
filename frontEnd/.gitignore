@@ -1,24 +1,18 @@
 # See https://help.github.com/ignore-files/ for more about ignoring files.
 
 # dependencies
-/backEnd/node_modules
-/frontEnd/node_modules
+/node_modules
 
 # testing
-/frontEnd/coverage
-/backEnd/coverage
+/coverage
+
 
 # production
-/frontEnd/build
+/build
 
 #不同的操作系统，.idea文件夹中的默认配置不一样，因此不提交到版本库中
-/frontEnd/.idea
-/backEnd/.idea
 /.idea
 
-/frontEnd/.vscode
-/backEnd/.vscode
-/.vscode
 # misc
 .DS_Store
 .env.local
